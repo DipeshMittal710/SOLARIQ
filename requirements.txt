@@ -1,0 +1,7 @@
+streamlit
+pdfplumber
+plotly
+pandas
+anthropic
+scikit-learn
+numpy
