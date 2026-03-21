@@ -706,7 +706,7 @@ elif analyze_btn and annual_units:
 | System Lifetime | 25 years |
 | Rooftop Score | {r_score}/100 Grade {r_grade} |
 | AI Trend R² | {trend_result['r2'] if trend_result else 'N/A'} |
-| Trend Forecast | {trend_result['forecast_annual']:,} kWh/yr if trend_result else 'N/A' |
+| Trend Forecast | {'N/A' if not trend_result else f"{trend_result['forecast_annual']:,} kWh/yr"} |
 """)
         st.markdown("---")
         st.markdown("#### 📚 Data Sources")
